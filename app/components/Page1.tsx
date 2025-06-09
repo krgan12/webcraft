@@ -29,14 +29,14 @@ export default function Page1() {
                 {/* Button */}
                 <button 
                     className="mt-8 px-4 py-2 bg-black text-white rounded hover:bg-black cursor-pointer transition" 
-                    onClick={() => router.push('/about')}
+                    onClick={() => router.push('/booking')}
                 >
                     Book a Free Consultation
                 </button>
                 &nbsp;&nbsp;&nbsp;
                  <button 
                     className="mt-8 px-4 py-2 border-[#000000] border bg-white text-black rounded hover:border-red cursor-pointer transition" 
-                    onClick={() => router.push('/about')}
+                    onClick={() => router.push('/portfolio')}
                 >
                     View Our Work
                 </button>
