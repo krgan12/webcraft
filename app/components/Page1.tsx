@@ -7,8 +7,8 @@ export default function Page1() {
     const router = useRouter();
     return (
         <div className="p-10">
-            {/* Container with consistent left padding */}
-            <div className="pl-[200px]"> {/* Adjust this single value to control all alignment */}
+           
+            <div className="pl-[200px]"> 
                 
                 {/* Heading */}
                 <div className="font-bold text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight text-left">
@@ -17,21 +17,28 @@ export default function Page1() {
                     <div className="text-gray-600">Growing Businesses</div>
                 </div>
                 
-                {/* Spacing - adjust mb value as needed */}
+                {/* Spacing */}
                 <div className="mb-6"></div>
                 
-                {/* Paragraph - automatically aligned because same container */}
+                {/* Paragraph */}
                 <p className="text-[18px] text-gray-600 max-w-[600px] leading-relaxed">
                     We create custom websites tailored to your business needs.<br />
                     From design to deployment, we handle everything so you can focus on what you do best.
                 </p>
                 
-                {/* Button - also automatically aligned */}
+                {/* Button */}
                 <button 
-                    className="mt-8 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition" 
+                    className="mt-8 px-4 py-2 bg-black text-white rounded hover:bg-black cursor-pointer transition" 
                     onClick={() => router.push('/about')}
                 >
-                    Go to Page 2
+                    Book a Free Consultation
+                </button>
+                &nbsp;&nbsp;&nbsp;
+                 <button 
+                    className="mt-8 px-4 py-2 border-red bg-white text-black rounded hover:border-red cursor-pointer transition" 
+                    onClick={() => router.push('/about')}
+                >
+                    View Our Work
                 </button>
             </div>
         </div>
