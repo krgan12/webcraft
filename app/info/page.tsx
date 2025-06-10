@@ -21,9 +21,14 @@ export default function Contact() {
         </div>
       </div>
       {/* Footer Section */}
-
+       <footer className="bg-[#151c26] border-t border-[#232b36] pt-12 pb-6 px-4 md:px-0">
+       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-6">
       {/* Logo & Description */}
-
+      <div className="flex flex-col gap-3">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="bg-[#e5eaf1] text-[#151c26] p-2 rounded-lg"><FaCode className="text-2xl" /></span>
+              <span className="text-xl font-semibold">WebCraft</span>
+            </div>
        {/* Services */}
 
        {/* Company */}
