@@ -42,7 +42,15 @@ export default function Contact() {
             </ul>
           </div>
        {/* Company */}
-
+       <div>
+            <h3 className="font-semibold mb-3">Company</h3>
+            <ul className="space-y-2 text-[#bfc9d6] text-sm">
+              <li>About</li>
+              <li>Portfolio</li>
+              <li>Contact</li>
+              <li>FAQ</li>
+            </ul>
+       </div>
        {/* Contact */}
 
     </div>
