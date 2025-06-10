@@ -75,37 +75,7 @@ export default function Portfolio() {
       {/* Styling for the shining animation */}
       {/* TODO: Fix this! */}
       <style jsx>{`
-        .shine-effect {
-          position: absolute;
-          top: 0;
-          left: -75%;
-          width: 150%;
-          height: 100%;
-          background: linear-gradient(120deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.18) 50%, rgba(0,0,0,0) 60%);
-          opacity: 0;
-          transition: opacity 0.2s;
-          pointer-events: none;
-        }
-        .group:hover .shine-effect {
-          animation: shine-diagonal 0.8s forwards;
-          opacity: 1;
-        }
-        @keyframes shine-diagonal {
-          0% {
-            left: -75%;
-            opacity: 0.2;
-          }
-          30% {
-            opacity: 0.5;
-          }
-          50% {
-            opacity: 0.7;
-          }
-          100% {
-            left: 75%;
-            opacity: 0;
-          }
-        }
+      
       `}</style>
     </div>
   )
