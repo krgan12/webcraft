@@ -72,6 +72,7 @@ export default function Portfolio() {
           </div>
         ))}
       </div>
+      <div></div>
       {/* Styling for the shining animation */}
       {/* TODO: Fix this! */}
       <style jsx>{`
