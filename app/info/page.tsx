@@ -26,7 +26,7 @@ export default function Contact() {
       {/* Logo & Description */}
       <div className="flex flex-col gap-3">
             <div className="flex items-center gap-2 mb-2">
-              <span className="bg-[#e5eaf1] text-[#151c26] p-2 rounded-lg"><FaCode className="text-2xl" /></span>
+              <span className="bg-[#e5eaf1] text-[#151c26] p-1 rounded-lg"><FaCode className="text-2xl" /></span>
               <span className="text-xl font-semibold">WebCraft</span>
             </div>
             <p className="text-[#bfc9d6] text-sm">Creating professional websites for businesses that want to make their mark online.</p>
