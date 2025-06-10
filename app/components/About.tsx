@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="pt-10 pb-20 px-2 max-w-screen-2xl mx-auto">
-      <br /><br />
+      {/* <br /><br /> */}
       <h1 className="font-bold text-4xl md:text-5xl text-gray-900 mb-6 tracking-tight text-center">
         What We Do
       </h1>
