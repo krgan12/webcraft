@@ -52,7 +52,16 @@ export default function Contact() {
             </ul>
        </div>
        {/* Contact */}
-
+       <div>
+            <h3 className="font-semibold mb-3">Contact</h3>
+            <ul className="space-y-2 text-[#bfc9d6] text-sm">
+              <li className="flex items-center gap-2"><FaEnvelope /> hello@webcraft.com</li>
+              <li className="flex items-center gap-2"><FaPhone /> (555) 123-4567</li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-center text-[#bfc9d6] text-sm mt-10">© 2025 WebCraft. All rights reserved.</div>
+      </footer>
     </div>
   );
 }
