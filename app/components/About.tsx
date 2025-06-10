@@ -14,10 +14,10 @@ export default function About() {
       <div className="w-full flex flex-col md:flex-row justify-center items-start md:space-x-[8vw] lg:space-x-[10vw] xl:space-x-[12vw]">
         
         <div className="flex flex-col items-center text-center">
-          <div className="h-28 w-28 rounded-full bg-gray-100 flex items-center justify-center mb-8">
+          <div className="h-14 w-14 rounded-full bg-gray-100 flex items-center justify-center mb-8">
             { /* TODO: Change Icon */}
             { /* TODO: Resize */}
-            <svg className="h-12 w-12 text-gray-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <svg className="h-6 w-6 text-gray-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               <path d="M12 3C7.03 3 3 7.03 3 12c0 2.21 1.79 4 4 4h1a1 1 0 0 1 1 1v1c0 2.21 1.79 4 4 4s4-1.79 4-4c0-4.97-4.03-9-9-9z" />
               <circle cx="8.5" cy="10.5" r="1.5" />
               <circle cx="15.5" cy="10.5" r="1.5" />
@@ -31,10 +31,10 @@ export default function About() {
 
 
         <div className="flex flex-col items-center text-center mt-16 md:mt-0">
-          <div className="h-28 w-28 rounded-full bg-gray-100 flex items-center justify-center mb-8">
+          <div className="h-14 w-14 rounded-full bg-gray-100 flex items-center justify-center mb-8">
            { /* TODO: Change Icon */}
             { /* TODO: Resize */}
-            <svg className="h-12 w-12 text-gray-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <svg className="h-6 w-6 text-gray-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               <rect x="3" y="4" width="18" height="14" rx="2" />
               <path d="M8 20h8" />
             </svg>
@@ -47,10 +47,10 @@ export default function About() {
 
 
         <div className="flex flex-col items-center text-center mt-16 md:mt-0">
-          <div className="h-28 w-28 rounded-full bg-gray-100 flex items-center justify-center mb-8">
+          <div className="h-14 w-14 rounded-full bg-gray-100 flex items-center justify-center mb-8">
             { /* TODO: Change Icon */}
             { /* TODO: Resize */}
-            <svg className="h-12 w-12 text-gray-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <svg className="h-6 w-6 text-gray-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               <path d="M12 3l7 4v5c0 5.25-3.5 9.74-7 11-3.5-1.26-7-5.75-7-11V7l7-4z" />
             </svg>
           </div>
