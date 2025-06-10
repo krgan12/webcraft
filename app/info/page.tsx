@@ -29,8 +29,18 @@ export default function Contact() {
               <span className="bg-[#e5eaf1] text-[#151c26] p-2 rounded-lg"><FaCode className="text-2xl" /></span>
               <span className="text-xl font-semibold">WebCraft</span>
             </div>
+            <p className="text-[#bfc9d6] text-sm">Creating professional websites for businesses that want to make their mark online.</p>
+      </div>
        {/* Services */}
-
+       <div>
+            <h3 className="font-semibold mb-3">Services</h3>
+            <ul className="space-y-2 text-[#bfc9d6] text-sm">
+              <li>Web Design</li>
+              <li>Development</li>
+              <li>Maintenance</li>
+              <li>Hosting</li>
+            </ul>
+          </div>
        {/* Company */}
 
        {/* Contact */}
