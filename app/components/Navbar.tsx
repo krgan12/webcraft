@@ -13,7 +13,7 @@ export default function Navbar() {
             <Link  href="/about" className="hover:underline">About</Link>
             <Link href="/services" className="hover:underline">Services</Link>
             <Link href="/portfolio" className="hover:underline">Portfolio</Link>
-            <Link href="/contact" className="hover:underline">Contact</Link>
+            <Link href="/info" className="hover:underline">Info</Link>
             <Link href="/FAQ" className="hover:underline">FAQ</Link>
             <Link href="/booking" className="hover:underline">Book a Free Call</Link>
         </div>
