@@ -17,16 +17,16 @@ export default function Page1() {
                     <div className="text-gray-600">Growing Businesses</div>
                 </div>
                 
-                {/* Spacing */}
+                
                 <div className="mb-6"></div>
                 
-                {/* Paragraph */}
+                
                 <p className="text-[18px] text-gray-600 max-w-[600px] leading-relaxed">
                     We create custom websites tailored to your business needs.<br />
                     From design to deployment, we handle everything so you can focus on what you do best.
                 </p>
                 
-                {/* Button */}
+             
                 <button 
                     className="mt-8 px-4 py-2 bg-black text-white rounded hover:bg-black cursor-pointer transition" 
                     onClick={() => router.push('/booking')}

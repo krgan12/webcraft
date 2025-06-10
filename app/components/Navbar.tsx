@@ -6,7 +6,7 @@ import React from 'react'
 export default function Navbar() {
   return (
     <nav className="bg-blue-600 text-white p-4 flex justify-between">
-        <Link href="/" className="hover:underline"><div className="text-xl font-bold">WebCraft</div></Link>
+        <Link href="/"><div className="text-xl font-bold">WebCraft</div></Link>
         <div className="space-x-4">
             <Link href="/" className="hover:underline">Home</Link>
             
