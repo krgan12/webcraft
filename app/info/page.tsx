@@ -59,6 +59,7 @@ export default function Contact() {
               <li className="flex items-center gap-2"><FaPhone /> (555) 123-4567</li>
             </ul>
           </div>
+          <p></p>
         </div>
         <div className="text-center text-[#bfc9d6] text-sm mt-10">© 2025 WebCraft. All rights reserved.</div>
       </footer>
