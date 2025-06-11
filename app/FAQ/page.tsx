@@ -23,6 +23,7 @@ export default function FAQ() {
           <h3 className="text-xl font-semibold mb-2">Can you help with website updates?</h3>
           <p className="text-gray-600">Absolutely! We can help you make changes and updates to your website at any time.</p>
          </div>
+         <p>EEEE</p>
          { /* Placeholders */}
          <div className="border-b pb-4">
           <h3 className="text-xl font-semibold mb-2">-Placeholder-</h3>
