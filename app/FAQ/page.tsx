@@ -3,7 +3,7 @@ import React from 'react'
 export default function FAQ() {
   return (
     <div className='min-h-screen p-10'>
-      <h2 className="text-4xl font-bold mb-8">
+      <h2 className="text-4xl font-bold mb-10 text-center">
         FAQ
       </h2>
       <div className="max-w-3xl mx-auto space-y-6">
@@ -22,7 +22,19 @@ export default function FAQ() {
          <div className="border-b pb-4">
           <h3 className="text-xl font-semibold mb-2">Can you help with website updates?</h3>
           <p className="text-gray-600">Absolutely! We can help you make changes and updates to your website at any time.</p>
-          <h1>EEEE</h1>
+         </div>
+         { /* Placeholders */}
+         <div className="border-b pb-4">
+          <h3 className="text-xl font-semibold mb-2">-Placeholder-</h3>
+          <p className="text-gray-600">-Placeholder text-</p>
+         </div>
+         <div className="border-b pb-4">
+          <h3 className="text-xl font-semibold mb-2">-Placeholder-</h3>
+          <p className="text-gray-600">-Placeholder text-</p>
+         </div>
+         <div className="border-b pb-4">
+          <h3 className="text-xl font-semibold mb-2">-Placeholder-</h3>
+          <p className="text-gray-600">-Placeholder text-</p>
          </div>
       </div>
     </div>
