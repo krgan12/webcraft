@@ -1,80 +1,83 @@
+'use client'
+
 import React from 'react'
+
+// List of Completed Projects
+
+const projects = [
+  {
+    type: 'Restaurant Website',
+    image: 'restaurant.jpg',
+    description: 'Modern restaurant website with online ordering system',
+    link: 'https://www.google.ca',
+  },
+  {
+    type: 'E-commerce Store',
+    image: 'ecommerce.jpg',
+    description: 'Complete e-commerce solution with payment integration',
+    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+  },
+  {
+    type: 'Corporate Website',
+    image: 'corporate.jpg',
+    description: 'Professional corporate website with client portal',
+    link: '#',
+  },
+];
 
 export default function Portfolio() {
   return (
-    <div className = "pt-10 px-2 mt-10 max-w-screen-2xl mx-auto">
-      <div className = "font-bold text-4xl text-gray-600 text-center">What Our Clients Say</div>
-
-        <div className = "mb-10"></div>
-
-        <div className = "flex  md:flex-row">
-
-          <div className = "grid grid-cols-3 grid-rows-1 gap-4">
-            
-            {/* Testimony 1 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col shadow">
-              <div className="flex items-center mb-4 text-left">
-                <img src="erle.png" alt="t1" className="w-12 h-12 rounded-full mr-4 object-cover"/>
-                <div>
-                  <p className="font-semibold text-lg text-gray-900">Sarah Johnson</p>
-                  <p className="text-sm text-gray-600">Restaurant Owner</p>
-                </div>
-              </div>
-
-                <div className="flex-grow mb-4">
-                  <p className="text-gray-800 text-lg leading-relaxed">
-                    "WebCraft transformed our online presence completely. Our new website has
-                    increased our bookings by 40%!"
-                  </p>
-                </div>
-
-
+    <div className="min-h-screen bg-[#fafbfc] flex flex-col items-center justify-center py-12 px-4 md:px-8">
+      { /* Page Title */}
+      <h1 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4 tracking-tight text-center">Our Recent Work</h1>
+      { /* Page Decription */}
+      <p className="text-lg md:text-xl text-gray-500 mb-12 text-center max-w-2xl">Take a look at some of the websites we've created for our clients</p>
+      <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8">
+        { /* Map through each list item ID to display on the page  */}
+        { /* Point of reference: ChatGPT Clone */}
+        {projects.map((project, id) => (
+          <div
+            key={id}
+            className="group relative flex flex-col rounded-xl shadow-sm border border-gray-200 bg-white overflow-hidden transition-transform hover:scale-[1.02] hover:shadow-md cursor-pointer duration-200 min-h-[420px] max-w-[340px] mx-auto"
+          >
+            {/* Image Section */}
+            <div className="flex items-center justify-center bg-black h-48 md:h-56 border-b border-gray-200 relative">
+              {project.image ? (
+                // Images for EACH project. TODO: Put a real thumbnail image here
+                <img
+                  src={project.image}
+                  alt={project.type}
+                  className="object-contain h-32 md:h-40 max-w-full rounded-md shadow-sm"
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-gray-400">No Image</div>
+              )}
+              {/* Shine effect */}
+              <span className="shine-effect pointer-events-none" />
             </div>
-
-            {/* Testimony 2 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col shadow">
-              <div className="flex items-center mb-4 text-left">
-                <img src="erle.png" alt="t2" className="w-12 h-12 rounded-full mr-4 object-cover"/>
-                <div>
-                  <p className="font-semibold text-lg text-gray-900">Mike Chen</p>
-                  <p className="text-sm text-gray-600">Tech Consultant</p>
-                </div>
-              </div>
-
-                <div className="flex-grow mb-4">
-                  <p className="text-gray-800 text-lg leading-relaxed">
-                    "The team understood our vision perfectly and created a beautiful, 
-                    functional website that our customers love."
-                  </p>
-                </div>
-
-
+            {/* Description Section */}
+            <div className="flex-1 p-8 flex flex-col justify-between">
+              {/* Project information */}
+              <p className="text-gray-600 mb-4 font-bold">{project.type}</p>
+              <p className="text-gray-600 mb-4 text-base">{project.description}</p>
+              { /* Clickable link to re-direct user to another page */}
+              <a
+                href={project.link}
+                className="inline-flex items-center text-gray-700 font-medium hover:underline group"
+              ><br />
+                View Project
+                <span className="ml-1 transition-transform group-hover:translate-x-1"><br />→</span>
+              </a>
             </div>
-
-            {/* Testimony 3 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col shadow">
-              <div className="flex items-center mb-4 text-left">
-                <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
-                <div>
-                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
-                  <p className="text-sm text-gray-600">Boutique Owner</p>
-                </div>
-              </div>
-
-                <div className="flex-grow mb-4">
-                  <p className="text-gray-800 text-lg leading-relaxed">
-                    "The team understood our vision perfectly
-                    and created a beautiful, functional website that our customers love."
-                  </p>
-                </div>
-
-
-            </div>
-
           </div>
-
-        </div>
-
+        ))}
+      </div>
+      <div></div>
+      {/* Styling for the shining animation */}
+      {/* TODO: Fix this! */}
+      <style jsx>{`
+      
+      `}</style>
     </div>
   )
 }
