@@ -38,7 +38,7 @@ export default function Page1() {
                     className="mt-8 px-4 py-2 border-[#000000] border bg-white text-black rounded hover:border-red cursor-pointer transition" 
                     onClick={() => router.push('/portfolio')}
                 >
-                    View Our Work .
+                    View Our Work
                 </button>
             </div>
         </div>
