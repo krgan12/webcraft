@@ -36,7 +36,7 @@ export default function Contact() {
             <h3 className="font-semibold mb-3">Services</h3>
             <ul className="space-y-2 text-[#bfc9d6] text-sm">
               <li>Web Design</li>
-              <li>Development</li>
+              <li>Web Development</li>
               <li>Maintenance</li>
               <li>Hosting</li>
             </ul>
