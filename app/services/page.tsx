@@ -2,15 +2,15 @@ import React from 'react'
 
 export default function Services() {
   return (
-    <div className="p-10 max-w-[1280px] mx-auto flex flex-col md:flex-row">
+    <div className="p-10 max-w-screen-2xl mx-auto flex flex-col md:flex-row ">
 
       <div className="why-choose-webcraft">
         <div className="p-10">
-          <div className="font-bold text-gray-900 text-4xl">Why Choose WebCraft?</div>
+          <div className="font-bold text-gray-900 text-5xl">Why Choose WebCraft?</div>
 
           <div className="mb-6"></div>
 
-          <p className="max-w-[500px] text-gray-700"> 
+          <p className="max-w-[600px] text-gray-700"> 
             We understand that every business is unique. That's why we take
             the time to understand your specific needs and create a website
             that truly represents your brand.
@@ -35,26 +35,26 @@ export default function Services() {
 
           {/* Top Left */}
           <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col justify-center items-center text-center shadow">
-            <h3 className="font-bold text-3xl text-gray-800 mb-1">50+</h3>
-            <p className="text-sm text-gray-700">Websites Built</p>
+            <h3 className="font-bold text-4xl text-gray-800 mb-1">50+</h3>
+            <p className="text-md text-gray-700">Websites Built</p>
           </div>
 
           {/* Top Right */}
           <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col justify-center items-center text-center shadow">
-            <h3 className="font-bold text-3xl text-gray-800 mb-1">100%</h3>
-            <p className="text-sm text-gray-700">Client Satisfaction</p>
+            <h3 className="font-bold text-4xl text-gray-800 mb-1">100%</h3>
+            <p className="text-md text-gray-700">Client Satisfaction</p>
           </div>
 
           {/* Bottom Left */}
           <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col justify-center items-center text-center shadow">
-            <h3 className="font-bold text-3xl text-gray-800 mb-1">24/7</h3>
-            <p className="text-sm text-gray-700m,">Support</p>
+            <h3 className="font-bold text-4xl text-gray-800 mb-1">24/7</h3>
+            <p className="text-md text-gray-700m,">Support</p>
           </div>
 
           {/* Bottom Right */}
           <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col justify-center items-center text-center shadow">
-            <h3 className="font-bold text-3xl text-gray-800 mb-1">3+</h3>
-            <p className="text-sm text-gray-700">Years Experience</p>
+            <h3 className="font-bold text-4xl text-gray-800 mb-1">3+</h3>
+            <p className="text-md text-gray-700">Years Experience</p>
           </div>
 
         </div>
