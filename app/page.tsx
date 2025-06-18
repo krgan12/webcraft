@@ -1,5 +1,5 @@
-import Page1 from "./components/Page1";
+import MainPage from "./components/MainPage";
 
 export default function Home() {
-  return <Page1 />;
+  return <MainPage />;
 }
