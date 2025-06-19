@@ -63,6 +63,8 @@ export default function Portfolio() {
               { /* Clickable link to re-direct user to another page */}
               <a
                 href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center text-gray-700 font-medium hover:underline group"
               ><br />
                 View Project
