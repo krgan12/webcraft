@@ -7,7 +7,7 @@ import React from 'react'
 const projects = [
   {
     type: 'ChatGPT Clone',
-    image: 'restaurant.png',
+    image: 'chatgpt.png',
     description: 'ChatGPT clone site that behaves and responds like the original',
     link: 'https://chatgpt-clone-coral-chi.vercel.app/',
   },
