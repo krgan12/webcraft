@@ -6,10 +6,10 @@ import React from 'react'
 
 const projects = [
   {
-    type: 'Restaurant Website',
-    image: 'restaurant.jpg',
-    description: 'Modern restaurant website with online ordering system',
-    link: 'https://www.google.ca',
+    type: 'ChatGPT Clone',
+    image: 'restaurant.png',
+    description: 'ChatGPT clone site that behaves and responds like the original',
+    link: 'https://chatgpt-clone-coral-chi.vercel.app/',
   },
   {
     type: 'E-commerce Store',
