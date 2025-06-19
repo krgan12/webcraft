@@ -10,7 +10,7 @@ export default function Services() {
 
           <div className="mb-8"></div>
 
-          <p className="max-w-[600px] text-2xl text-gray-700"> 
+          <p className="max-w-[800px] text-3xl text-gray-700"> 
             We understand that every business is unique. That's why we take
             the time to understand your specific needs and create a website
             that truly represents your brand.
@@ -18,7 +18,7 @@ export default function Services() {
 
           <div className="mb-6"></div>
 
-          <ul className="list-disc pl-[30px] py-2 text-gray-700 text-xl">
+          <ul className="list-disc pl-[30px] py-2 text-gray-700 text-2xl">
             <li><p>Personalized approach to every project</p></li>
             <li><p>Fast turnaround times</p></li>
             <li><p>Transparent pricing with no hidden fees</p></li>
