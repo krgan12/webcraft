@@ -8,14 +8,14 @@ const projects = [
   {
     type: 'ChatGPT Clone',
     image: 'chatgpt.png',
-    description: 'ChatGPT clone site that behaves and responds like the original',
+    description: 'ChatGPT clone site that behaves and responds like the original.',
     link: 'https://chatgpt-clone-coral-chi.vercel.app/',
   },
   {
-    type: 'E-commerce Store',
-    image: 'ecommerce.jpg',
-    description: 'Complete e-commerce solution with payment integration',
-    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    type: 'Sheridan College Bank App',
+    image: 'bank.png',
+    description: 'Enterprise application for Sheridan banking. Focused primarily on back-end.',
+    link: 'https://bankofsheridan1.azurewebsites.net/',
   },
   {
     type: 'Corporate Website',
