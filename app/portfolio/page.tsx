@@ -27,7 +27,7 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-[#fafbfc] flex flex-col items-center justify-center py-12 px-4 md:px-8">
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center py-12 px-4 md:px-8">
       { /* Page Title */}
       <h1 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4 tracking-tight text-center">Our Recent Work</h1>
       { /* Page Decription */}
