@@ -1,12 +1,12 @@
 'use client'
 import Link from "next/link";
-import About from "./About";
+// import About from "./About";
 import { useRouter } from 'next/navigation'
 
 export default function Page1() {
     const router = useRouter();
     return (
-        <div className="p-10">
+        <div className="p-10 bg-gray-100 min-h-screen">
            
             <div className="pl-[200px]"> 
                 

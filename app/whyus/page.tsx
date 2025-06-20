@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Whyus() {
   return (
-    <div className="p-10 max-w-[1280px] mx-auto flex flex-col md:flex-row">
+    <div className='bg-gray-100 min-h-screen'>
+    <div className="p-10 max-w-[1280px] mx-auto flex flex-col md:flex-row ">
 
       <div className="why-choose-webcraft">
         <div className="p-10">
@@ -59,6 +60,7 @@ export default function Whyus() {
 
         </div>
       </div>
+    </div>
     </div>
   )
 }
