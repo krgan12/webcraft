@@ -18,10 +18,10 @@ export default function Contact() {
             <FaRegCalendarAlt className="text-xl" />
             Book Free Call
           </button>
-          <button className="flex items-center gap-2 border border-[#e5eaf1] text-[#e5eaf1] font-medium px-6 py-3 rounded-lg hover:bg-[#232b36] transition">
+          {/* <button className="flex items-center gap-2 border border-[#e5eaf1] text-[#e5eaf1] font-medium px-6 py-3 rounded-lg hover:bg-[#232b36] transition">
             <FaEnvelope className="text-xl" />
             Send Message
-          </button>
+          </button> */}
         </div>
       </div>
       {/* Footer Section */}
