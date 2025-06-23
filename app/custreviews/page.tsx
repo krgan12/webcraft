@@ -68,8 +68,128 @@ export default function page() {
                     and created a beautiful, functional website that our customers love."
                   </p>
                 </div>
-                
 
+              
+            </div>
+
+             {/* Testimony 3 */}
+            <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col shadow">
+              <div className="flex items-center mb-4 text-left">
+                <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
+                <div>
+                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="text-sm text-gray-600">Boutique Owner</p>
+                </div>
+              </div>
+
+                <div className="flex-grow mb-4">
+                  <p className="text-gray-800 text-lg leading-relaxed">
+                    "The team understood our vision perfectly
+                    and created a beautiful, functional website that our customers love."
+                  </p>
+                </div>
+
+              
+            </div>
+
+             {/* Testimony 3 */}
+            <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col shadow">
+              <div className="flex items-center mb-4 text-left">
+                <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
+                <div>
+                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="text-sm text-gray-600">Boutique Owner</p>
+                </div>
+              </div>
+
+                <div className="flex-grow mb-4">
+                  <p className="text-gray-800 text-lg leading-relaxed">
+                    "The team understood our vision perfectly
+                    and created a beautiful, functional website that our customers love."
+                  </p>
+                </div>
+
+              
+            </div> 
+
+             {/* Testimony 3 */}
+            <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col shadow">
+              <div className="flex items-center mb-4 text-left">
+                <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
+                <div>
+                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="text-sm text-gray-600">Boutique Owner</p>
+                </div>
+              </div>
+
+                <div className="flex-grow mb-4">
+                  <p className="text-gray-800 text-lg leading-relaxed">
+                    "The team understood our vision perfectly
+                    and created a beautiful, functional website that our customers love."
+                  </p>
+                </div>
+
+              
+            </div> 
+
+             {/* Testimony 3 */}
+            <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col shadow">
+              <div className="flex items-center mb-4 text-left">
+                <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
+                <div>
+                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="text-sm text-gray-600">Boutique Owner</p>
+                </div>
+              </div>
+
+                <div className="flex-grow mb-4">
+                  <p className="text-gray-800 text-lg leading-relaxed">
+                    "The team understood our vision perfectly
+                    and created a beautiful, functional website that our customers love."
+                  </p>
+                </div>
+
+              
+            </div>
+
+             {/* Testimony 3 */}
+            <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col shadow">
+              <div className="flex items-center mb-4 text-left">
+                <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
+                <div>
+                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="text-sm text-gray-600">Boutique Owner</p>
+                </div>
+              </div>
+
+                <div className="flex-grow mb-4">
+                  <p className="text-gray-800 text-lg leading-relaxed">
+                    "The team understood our vision perfectly
+                    and created a beautiful, functional website that our customers love."
+                  </p>
+                </div>
+
+              
+            </div>
+
+             {/* Testimony 3 */}
+            <div className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col shadow">
+              <div className="flex items-center mb-4 text-left">
+                <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
+                <div>
+                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="text-sm text-gray-600">Boutique Owner</p>
+                </div>
+              </div>
+
+                <div className="flex-grow mb-4">
+                  <p className="text-gray-800 text-lg leading-relaxed">
+                    "The team understood our vision perfectly
+                    and created a beautiful, functional website that our customers love."
+                  </p>
+                </div>
+
+              
             </div>
 
           </div>
