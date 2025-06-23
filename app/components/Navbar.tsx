@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className='bg-[#1c2331] rounded-lg p-2'>
           <FaCode className='text-white text-xl'/>
         </div>
-        <div className='text-xl font-bold'>WebCraft</div>
+        <Link href="/"><div className='text-xl font-bold'>WebCraft</div></Link>
       </div>
         {/* <div className="space-x-4"> */}
         <div className="absolute left-1/2 transform -translate-x-1/2 flex space-x-4">
@@ -32,7 +32,7 @@ export default function Navbar() {
             <button onClick={() => scrollToSection('portfolio')} className="hover:underline transition-colors cursor-pointer">Portfolio</button>
             <button onClick={() => scrollToSection('customer')} className="hover:underline transition-colors cursor-pointer">Client Reviews</button>
             <button onClick={() => scrollToSection('faq')} className="hover:underline transition-colors cursor-pointer">FAQ</button>
-            <Link href="/booking" className="hover:text-gray-600 transition-colors">Book a Free Call</Link>
+            <Link href="/booking" className="hover:underline transition-colors cursor-pointer">Book a Free Call</Link>
         </div>
     </nav>
   )
