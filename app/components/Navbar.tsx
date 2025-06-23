@@ -33,7 +33,7 @@ export default function Navbar() {
         <button onClick={() => scrollToSection('faq')} className="hover:underline transition-colors cursor-pointer">FAQ</button>
       </div>
       {/* Right-aligned "Book Free Call" button */}
-      <div className="ml-auto mr-20">
+      <div className="ml-auto mr-1">
         <Link
           href="/booking"
           className="bg-[#111827] text-white font-semibold px-8 py-3 rounded-xl cursor-pointer transition-transform duration-150 hover:scale-105"
