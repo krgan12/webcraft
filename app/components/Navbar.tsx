@@ -23,17 +23,25 @@ export default function Navbar() {
         </div>
         <Link href="/"><div className='text-xl font-bold'>WebCraft</div></Link>
       </div>
-        {/* <div className="space-x-4"> */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 flex space-x-4">
-            <Link href="/" className='hover:underline cursor-pointer'>Home</Link>
-            {/* <button onClick={() => scrollToSection('home')} className="hover:underline transition-colors cursor-pointer">Home</button> */}
-            <button onClick={() => scrollToSection('services')} className="hover:underline transition-colors cursor-pointer">Services</button>
-            <button onClick={() => scrollToSection('whyus')} className="hover:underline transition-colors cursor-pointer">Why Us?</button>
-            <button onClick={() => scrollToSection('portfolio')} className="hover:underline transition-colors cursor-pointer">Portfolio</button>
-            <button onClick={() => scrollToSection('customer')} className="hover:underline transition-colors cursor-pointer">Client Reviews</button>
-            <button onClick={() => scrollToSection('faq')} className="hover:underline transition-colors cursor-pointer">FAQ</button>
-            <Link href="/booking" className="hover:underline transition-colors cursor-pointer">Book a Free Call</Link>
-        </div>
+      {/* Centered navigation links */}
+      <div className="flex space-x-4 ml-100">
+        <Link href="/" className='hover:underline cursor-pointer'>Home</Link>
+        <button onClick={() => scrollToSection('services')} className="hover:underline transition-colors cursor-pointer">Services</button>
+        <button onClick={() => scrollToSection('whyus')} className="hover:underline transition-colors cursor-pointer">Why Us?</button>
+        <button onClick={() => scrollToSection('portfolio')} className="hover:underline transition-colors cursor-pointer">Portfolio</button>
+        <button onClick={() => scrollToSection('customer')} className="hover:underline transition-colors cursor-pointer">Client Reviews</button>
+        <button onClick={() => scrollToSection('faq')} className="hover:underline transition-colors cursor-pointer">FAQ</button>
+      </div>
+      {/* Right-aligned "Book Free Call" button */}
+      <div className="ml-auto mr-20">
+        <Link
+          href="/booking"
+          className="bg-[#111827] text-white font-semibold px-8 py-3 rounded-xl cursor-pointer transition-transform duration-150 hover:scale-105"
+          style={{ boxShadow: 'none', border: 'none', textDecoration: 'none' }}
+        >
+          Book Free Call
+        </Link>
+      </div>
     </nav>
   )
 }
