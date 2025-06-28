@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic'
 
 // Dynamically import the page components to avoid SSR issues
 const Services = dynamic(() => import('../services/page'))
-const Portfolio = dynamic(() => import('../portfolio/page'))
+// const Portfolio = dynamic(() => import('../portfolio/page')) -> Moved to homepage
 const FAQ = dynamic(() => import('../FAQ/page'))
 const Info = dynamic(() => import('../info/page'))
 const Whyus = dynamic(() => import('../whyus/page'));
@@ -35,10 +35,10 @@ export default function MainPage() {
                 <Whyus />
             </section>
 
-            {/* Portfolio Section */}
-            <section id="portfolio" className="min-h-screen">
+            {/* Portfolio Section -> Moved to home page*/}
+            {/* <section id="portfolio" className="min-h-screen">
                 <Portfolio />
-            </section>
+            </section> */}
 
             { /* Customer Reviews Section */}
             <section id="customer" className="min-h-screen">
