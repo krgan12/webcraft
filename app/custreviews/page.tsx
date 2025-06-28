@@ -2,7 +2,10 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div className='bg-[#fafbfc] min-h-screen'>
+    <div className='bg-white min-h-screen'>
+      { /* Background colors for reference */}
+      {/* bg-white */}
+      {/* bg-[#fafbfc] */}
     <div className = "pt-10 px-2 mt-10 max-w-screen-2xl mx-auto">
       <div className = "font-bold text-4xl text-gray-600 text-center">What Our Clients Say</div>
 

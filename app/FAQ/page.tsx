@@ -48,7 +48,8 @@ export default function FAQ() {
   };
 
   return (
-    <div className='min-h-screen p-10'>
+    <div className='min-h-screen p-10 bg-[#f3f4f6]'>
+      <br /><br />
       <h2 className="text-4xl font-bold mb-10 text-center">
         Frequently Asked Questions
       </h2>
@@ -64,6 +65,7 @@ export default function FAQ() {
             )}
           </div>
         ))}
+        <br /><br /><br />
       </div>
       <style jsx>{`
         .animate-fade-in {
