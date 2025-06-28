@@ -57,7 +57,7 @@ export default function page() {
               <div className="flex items-center mb-4 text-left">
                 <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
                 <div>
-                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="font-semibold text-lg text-gray-900">Person 7</p>
                   <p className="text-sm text-gray-600">Boutique Owner</p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export default function page() {
               <div className="flex items-center mb-4 text-left">
                 <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
                 <div>
-                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="font-semibold text-lg text-gray-900">Person 2</p>
                   <p className="text-sm text-gray-600">Boutique Owner</p>
                 </div>
               </div>
@@ -97,7 +97,7 @@ export default function page() {
               <div className="flex items-center mb-4 text-left">
                 <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
                 <div>
-                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="font-semibold text-lg text-gray-900">Person 4</p>
                   <p className="text-sm text-gray-600">Boutique Owner</p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ export default function page() {
               <div className="flex items-center mb-4 text-left">
                 <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
                 <div>
-                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="font-semibold text-lg text-gray-900">Person 3</p>
                   <p className="text-sm text-gray-600">Boutique Owner</p>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default function page() {
               <div className="flex items-center mb-4 text-left">
                 <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
                 <div>
-                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="font-semibold text-lg text-gray-900">Person 6</p>
                   <p className="text-sm text-gray-600">Boutique Owner</p>
                 </div>
               </div>
@@ -157,7 +157,7 @@ export default function page() {
               <div className="flex items-center mb-4 text-left">
                 <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
                 <div>
-                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="font-semibold text-lg text-gray-900">Person 4</p>
                   <p className="text-sm text-gray-600">Boutique Owner</p>
                 </div>
               </div>
@@ -177,7 +177,7 @@ export default function page() {
               <div className="flex items-center mb-4 text-left">
                 <img src="erle.png" alt="t3" className="w-12 h-12 rounded-full mr-4 object-cover"/>
                 <div>
-                  <p className="font-semibold text-lg text-gray-900">Emily Davis</p>
+                  <p className="font-semibold text-lg text-gray-900">Person 5</p>
                   <p className="text-sm text-gray-600">Boutique Owner</p>
                 </div>
               </div>

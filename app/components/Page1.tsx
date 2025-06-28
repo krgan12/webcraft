@@ -1,9 +1,12 @@
 'use client'
+import dynamic from "next/dynamic";
 import Link from "next/link";
 // import About from "./About";
 import { useRouter } from 'next/navigation'
 
 export default function Page1() {
+    const Portfolio = dynamic(() => import('../portfolio/page'))
+
     const router = useRouter();
     return (
         <div className="p-10 bg-gray-100 min-h-screen">
@@ -40,6 +43,7 @@ export default function Page1() {
                 >
                     View Our Work
                 </button>
+
             </div>
         </div>
     );
