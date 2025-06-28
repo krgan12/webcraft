@@ -6,7 +6,12 @@ import { useRouter } from 'next/navigation'
 
 export default function Page1() {
     const PortfolioSection = dynamic(() => import('../components/PortfolioSection'), {ssr: false});
-
+    const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
     const router = useRouter();
     return (
         <div className="p-10 bg-gray-100 min-h-screen">
@@ -14,7 +19,7 @@ export default function Page1() {
             <div className="pl-[200px]"> 
                 
                 {/* Heading */}
-                {/* <br /><br /><br /> */}
+                <br /><br /><br /><br />
                 <div className="font-bold text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight text-left">
                     <div className="text-gray-900">Professional</div>
                     <div className="text-gray-900">Websites for</div>
@@ -38,9 +43,13 @@ export default function Page1() {
                     Book a Free Consultation
                 </button>
                 &nbsp;&nbsp;&nbsp;
-                 <button 
+                 {/* <button 
                     className="mt-8 px-4 py-2 border-[#000000] border bg-white text-black rounded hover:border-red cursor-pointer transition" 
                     onClick={() => router.push('/portfolio')}
+                > */}
+                <button 
+                    className="mt-8 px-4 py-2 border-[#000000] border bg-white text-black rounded hover:border-red cursor-pointer transition" 
+                    onClick={() => scrollToSection('portfolio')}               
                 >
                     View Our Work
                 </button>
