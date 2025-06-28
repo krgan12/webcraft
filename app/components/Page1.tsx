@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from 'next/navigation'
 
 export default function Page1() {
-    const Portfolio = dynamic(() => import('../portfolio/page'))
+    const PortfolioSection = dynamic(() => import('../components/PortfolioSection'), {ssr: false});
 
     const router = useRouter();
     return (
@@ -14,6 +14,7 @@ export default function Page1() {
             <div className="pl-[200px]"> 
                 
                 {/* Heading */}
+                {/* <br /><br /><br /> */}
                 <div className="font-bold text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight text-left">
                     <div className="text-gray-900">Professional</div>
                     <div className="text-gray-900">Websites for</div>
@@ -44,6 +45,9 @@ export default function Page1() {
                     View Our Work
                 </button>
 
+            </div>
+            <div id="portfolio" className="mt-20">
+                <PortfolioSection />
             </div>
         </div>
     );
