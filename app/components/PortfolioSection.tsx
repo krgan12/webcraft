@@ -36,7 +36,7 @@ export default function PortfolioSection() {
       <p className="text-lg md:text-xl text-gray-500 mb-12 text-center max-w-2xl">Take a look at some of the websites we've created for our clients</p>
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8">
         { /* Map through each list item ID to display on the page  */}
-        { /* Point of reference: ChatGPT Clone */}
+        { /* Point of reference: ChatGPT E Clone */}
         {projects.map((project, id) => (
           <div
             key={id}
