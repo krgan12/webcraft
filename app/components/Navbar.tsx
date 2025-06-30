@@ -3,13 +3,21 @@
 import Link from 'next/link'
 import React from 'react'
 import { FaCode } from 'react-icons/fa'
+import { useNavigation } from './NavigationContext'
 
 export default function Navbar() {
+  const { startTransition } = useNavigation();
+  
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const handleBookCallClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    startTransition('/booking');
   };
 
   return (
@@ -34,13 +42,13 @@ export default function Navbar() {
       </div>
       {/* Right-aligned "Book Free Call" button */}
       <div className="ml-auto mr-1">
-        <Link
-          href="/booking"
-          className="bg-[#111827] text-white font-semibold px-8 py-3 rounded-xl cursor-pointer transition-transform duration-150 hover:scale-105"
-          style={{ boxShadow: 'none', border: 'none', textDecoration: 'none' }}
+        <button
+          onClick={handleBookCallClick}
+          className="btn-transition bg-gradient-to-r from-[#111827] to-[#1f2937] text-white font-semibold px-8 py-3 rounded-xl cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#0500B8]/25 active:scale-95 border border-transparent hover:border-white/20"
+          style={{ boxShadow: 'none', textDecoration: 'none' }}
         >
-          Book Free Call
-        </Link>
+          <span className="relative z-10">Book Free Call</span>
+        </button>
       </div>
     </nav>
   )
