@@ -14,7 +14,7 @@ export default function Contact() {
       
       <p className="text-lg md:text-xl text-[#bfc9d6] text-center mb-2 max-w-2xl">Let's discuss your project and create a website that helps your business grow.<br />Book a free consultation today.</p>
         <div className="flex gap-6 mt-8">
-          <button onClick={() => router.push('/booking')} className="flex items-center gap-5 bg-white text-[#151c26] font-medium px-6 py-3 rounded-lg shadow hover:bg-[#e5eaf1] transition">
+          <button onClick={() => router.push('/booking')} className="flex items-center gap-5 bg-white text-[#151c26] font-medium px-6 py-3 rounded-lg shadow hover:bg-[#e5eaf1] transition cursor-pointer">
             <FaRegCalendarAlt className="text-xl" />
             Book Free Call
           </button>
