@@ -3,8 +3,18 @@
 import { useRouter } from 'next/navigation';
 import React from 'react';
 import { FaRegCalendarAlt, FaEnvelope, FaPhone, FaCode } from 'react-icons/fa';
+import dynamic from "next/dynamic";
+import Link from "next/link";
+// import About from "./About";
 
 export default function Contact() {
+   const PortfolioSection = dynamic(() => import('../components/PortfolioSection'), {ssr: false});
+     const scrollToSection = (sectionId: string) => {
+     const element = document.getElementById(sectionId);
+     if (element) {
+       element.scrollIntoView({ behavior: 'smooth' });
+     }
+   };
   const router = useRouter();
   return (
     <div className="min-h-screen flex flex-col justify-between bg-[#151c26] text-[#e5eaf1]">
@@ -49,9 +59,9 @@ export default function Contact() {
        <div>
             <h3 className="font-semibold mb-3">Company</h3>
             <ul className="space-y-2 text-[#bfc9d6] text-sm">
-              <li>About</li>
-              <li>Portfolio</li>
-              <li>Contact</li>
+              <li onClick={() => router.push('/booking')} className='cursor-pointer'>About</li>
+              <li onClick={() => scrollToSection('portfolio')} className='cursor-pointer'>Portfolio</li>
+              <li onClick={() => router.push('/booking')}>Contact</li>
               <li>FAQ</li>
             </ul>
        </div>
