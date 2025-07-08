@@ -31,14 +31,7 @@ export default function FAQ() {
       question: '-Placeholder-',
       answer: '-Placeholder text-'
     },
-    {
-      question: '-Placeholder-',
-      answer: '-Placeholder text-'
-    },
-    {
-      question: '-Placeholder-',
-      answer: '-Placeholder text-'
-    },
+
   ];
 
   const [openIndex, setOpenIndex] = useState<number | null>(null);
