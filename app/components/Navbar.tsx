@@ -33,11 +33,11 @@ export default function Navbar() {
       </div>
       {/* Centered navigation links */}
       <div className="flex space-x-4 ml-100">
-        <Link href="/" className='hover:underline cursor-pointer'>Home</Link>
-        <button onClick={() => scrollToSection('services')} className="hover:underline transition-colors cursor-pointer">Services</button>
-        <button onClick={() => scrollToSection('whyus')} className="hover:underline transition-colors cursor-pointer">Why Us?</button>
-        <button onClick={() => scrollToSection('portfolio')} className="hover:underline transition-colors cursor-pointer">Portfolio</button>
-        <button onClick={() => scrollToSection('customer')} className="hover:underline transition-colors cursor-pointer">Client Reviews</button>
+        <Link href="/" className='hover:underline cursor-pointer'>Home</Link>&nbsp;&nbsp;
+        <button onClick={() => scrollToSection('services')} className="hover:underline transition-colors cursor-pointer">Services</button>&nbsp;&nbsp;
+        <button onClick={() => scrollToSection('whyus')} className="hover:underline transition-colors cursor-pointer">Why Us?</button>&nbsp;&nbsp;
+        <button onClick={() => scrollToSection('portfolio')} className="hover:underline transition-colors cursor-pointer">Portfolio</button>&nbsp;&nbsp;
+        <button onClick={() => scrollToSection('customer')} className="hover:underline transition-colors cursor-pointer">Client Reviews</button>&nbsp;&nbsp;
         <button onClick={() => scrollToSection('faq')} className="hover:underline transition-colors cursor-pointer">FAQ</button>
       </div>
       {/* Right-aligned "Book Free Call" button */}
