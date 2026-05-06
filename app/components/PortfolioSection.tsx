@@ -25,10 +25,10 @@ const projects = [
     link: 'https://bankofsheridan1.azurewebsites.net/',
   },
   {
-    type: 'Corporate Website',
-    image: 'corporate.jpg',
-    description: 'Professional corporate website with client portal',
-    link: '#',
+    type: 'Tulos E-commerce site',
+    image: 'tulos.png',
+    description: 'A full-stack e-commerce website designed for Tulos, a business client',
+    link: 'https://tulos-v.vercel.app/',
   },
 ]
 
