@@ -11,7 +11,7 @@ export default function page() {
 
         <div className = "mb-10"></div>
 
-        <div className = "flex  md:flex-row">
+        <div className = "flex md:flex-row">
 
           <div className = "grid grid-cols-3 grid-rows-1 gap-4">
             
@@ -51,7 +51,6 @@ export default function page() {
                     functional website that our customers love."
                   </p>
                 </div>
-
 
             </div>          
 
