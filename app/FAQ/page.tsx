@@ -21,18 +21,18 @@ export default function FAQ() {
       answer: 'Absolutely! We can help you make changes and updates to your website at any time.'
     },
     // Placeholders
-    {
-      question: '-Placeholder-',
-      answer: '-Placeholder text-'
-    },
-    {
-      question: '-Placeholder-',
-      answer: '-Placeholder text-'
-    },
-    {
-      question: '-Placeholder-',
-      answer: '-Placeholder text-'
-    },
+    // {
+    //   question: '-Placeholder-',
+    //   answer: '-Placeholder text-'
+    // },
+    // {
+    //   question: '-Placeholder-',
+    //   answer: '-Placeholder text-'
+    // },
+    // {
+    //   question: '-Placeholder-',
+    //   answer: '-Placeholder text-'
+    // },
 
   ];
 

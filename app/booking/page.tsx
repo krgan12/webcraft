@@ -44,6 +44,7 @@ export default function Booking() {
       <div className={`flex flex-col space-y-10 w-full max-w-2xl transition-all duration-800 delay-300 ${
         isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
       }`}>
+        <br />
         <h4 className='text-4xl font-semibold text-center'>
           We have got just what you need to{' '}
           <span className='decoration-[#e0347f]/50 underline'>stay in touch!</span>
@@ -52,11 +53,11 @@ export default function Booking() {
         <div className='space-y-6'>
           <div className='flex items-center space-x-5 justify-center'>
             <span className='text-[#e0347f] text-2xl animate-pulse'>📞</span>
-            <p className='text-2xl'>+971 (###)-###-####</p>
+            <p className='text-2xl'>+1 (647)-335-5347</p>
           </div>
           <div className='flex items-center space-x-5 justify-center'>
             <span className='text-[#e0347f] text-2xl animate-pulse'>✉️</span>
-            <p className='text-2xl'>companye-mail@email.com</p>
+            <p className='text-2xl'>keagan123@outlook.com</p>
           </div>
         </div>
 
